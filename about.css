@@ -1,0 +1,234 @@
+.nav-intro-outer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-intro-inner {
+    width: 77%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.nav-intro-inner h4 {
+    font-family: 'ButlerRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav-intro-inner h5 {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.nav-intro-inner p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 17px;
+    flex-wrap: wrap;
+}
+
+.nav-chronology {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.nav-box1 {
+    width: 45%;
+    height: auto;
+    text-align: left;
+    flex-wrap: wrap;
+
+}
+
+.futurak {
+    font-family: 'Pirata One', cursive;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.30em;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.inline {
+    display: flex;
+}
+
+.nav-box1 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 17px;
+    flex-wrap: wrap;
+
+}
+
+.nav-box1 img {
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.nav-intro-inner-franchise-text {
+    width: 77%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-intro-inner-franchise-text h5 {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.nav-intro-inner-franchise-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 17px;
+}
+
+.nav-box2 img {
+    width: 100%;
+    height: 28vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.adress-card {
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 370px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+
+.adress-card img {
+    width: 100%;
+    height: 235px !important;
+    background-size: cover;
+    object-fit: cover !important;
+    border-radius: 5px;
+}
+
+.adress-outer-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card-info p {
+    padding-top: 3px;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 45px;
+    line-height: 1.8em;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(161, 161, 161);
+    font-weight: 400;
+    height: 25px;
+
+}
+
+.bold-card {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.card-info a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.nav-box1 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.nav-box1 h6 {
+    letter-spacing: 0.10rem;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 400;
+    color: white;
+}

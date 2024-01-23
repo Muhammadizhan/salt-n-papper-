@@ -1,0 +1,880 @@
+/* <<<<<<<<<<<<<<<<<<<< Header >>>>>>>>>>>>>>>>>>>> */
+@font-face {
+    font-family: 'appercu';
+    src: url(Fonts/Apercu\ Light.otf);
+}
+
+@font-face {
+    font-family: 'futurak';
+    src: url(Fonts/futurak.ttf);
+}
+
+@font-face {
+    font-family: 'butler';
+    src: url(Fonts/Butler_Bold_Stencil.otf);
+}
+/* color variable */
+:root{
+    --red:#f42625;
+    --white:#ffffff;
+    --black:#000000;
+}
+* {
+    font-family: 'appercu';
+}
+
+/* Nav Bar Started */
+
+#navbar{
+    padding: 0px 15px;
+}
+#navbar-items{
+    gap: 30px;
+    padding: 10px 30px;
+    margin-top: auto;
+}
+
+#main-logo{
+    padding-left: 30px;
+    width: 165px;
+    
+}
+.nav-link{
+    text-decoration: none;
+}
+#franchise{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 20px;
+    cursor: pointer;
+
+}
+#order-online{
+    background-color: var(--red);
+    border: 0px;
+    padding: 15px 20px;
+    cursor: pointer;
+
+}
+#red{
+    color: var(--red);
+
+}
+#btn-icon{
+    padding: 5px 7px;
+}
+#children-images{
+    gap: 30px;
+}
+/* Nav Bar Ended */
+
+
+
+/* .manu>ul>li {
+    display: inline;
+    color: #fff;
+    text-transform: capitalize;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica,;
+
+}
+
+.manu {
+    padding-left: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+.logo,
+.manu {
+    display: inline-block;
+}
+
+/* bottons */
+
+.btns button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+
+.btns_one {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    margin-right: 10px;
+}
+
+.btns_tow {
+    background-color: #ED1C24;
+    color: #fff;
+}
+
+.btns_tow {
+    padding: 10px 18px !important;
+}
+
+.btns {
+    display: inline-block;
+}
+
+.manu>ul {
+    display: inline-block;
+}
+
+.btns_tow>i {
+    border-radius: 100px;
+    padding: 8px 9px;
+    background-color: #fff;
+    color: #ED1C24;
+} */
+
+/* <<<<<<<<<<< Hero Banner >>>>>>>> */
+.herobanner {
+    width: 100%;
+}
+
+.herobanner>img {
+    width: 100%;
+}
+
+/* <<<<<<<<<<< Welcome >>>>>>>> */
+.welcomeparent {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.salten>h3 {
+    font-size: 35px;
+    font-weight: lighter;
+    padding-top: 70px;
+    margin: 0px;
+
+
+}
+
+.salten>h3>span {
+    font-family: 'futurak';
+    font-size: 50px;
+
+}
+
+.salten p {
+    color: #AFAFAF;
+    margin-top: 0px;
+    font-size: 16px;
+
+}
+
+/* <<<<<<<<<<< Three Cards >>>>>>>> */
+.Three_cards {
+    display: inline-flex;
+}
+
+.card {
+    background-color: #fff;
+    width: 200px;
+    padding: 25px 15px;
+    border-radius: 3px;
+}
+
+.card_container {
+    margin: 20px 12px;
+
+}
+
+.card>img {
+    width: 100%;
+}
+
+.card_button {
+    width: 220px;
+}
+
+.card_button>button {
+    border: none;
+    padding: 13px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 20px;
+    margin-bottom: 125px;
+}
+
+.reserve {
+    padding: 13px 35px !important;
+}
+
+/* << Salt'n Pepper Restaurant Franchises >> */
+
+.salten_parent {
+    background-color: #0F0F0F;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.salten_parent h3 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'butler';
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.Style_Salten>h3>span {
+    font-family: 'futurak';
+    font-size: 52px;
+    letter-spacing: 2px;
+
+}
+
+.Style_Salten>p {
+    color: #AFAFAF;
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* <<< Heading images >>> */
+.heading_box {
+    margin-right: 100px;
+    background-color: #0F0F0F;
+    text-align: left;
+    margin: 0px;
+    padding-left: 150px;
+    color: #fff;
+    /* width: 620px; */
+
+
+
+}
+
+.isl_red {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 8px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: -15px;
+}
+
+.getdirection {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 20px;
+    margin-bottom: 125px;
+
+
+}
+
+.getdirection i {
+    border: none;
+    padding: 5px 5px;
+    border-radius: 55px;
+    background-color: #fff;
+    color: #ED1C24;
+}
+
+.heading_box span {
+    font-family: 'futurak';
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 29px;
+    background-color: #0F0F0F;
+}
+
+.Restaurant {
+    font-family: 'appercu' !important;
+    font-weight: lighter;
+    font-size: 29px;
+}
+
+address {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+address i {
+    letter-spacing: 3px;
+}
+
+.image_01>img {
+    width: 90%;
+    padding-right: 100px;
+
+}
+
+.father {
+    display: inline-flex;
+    background-color: #0F0F0F;
+
+}
+
+.image_02>img {
+    width: 90%;
+    padding-left: 100px;
+
+}
+
+/* << Salt'n Pepper Express Franchises >> */
+
+/* Heading */
+.salten03 {
+    text-align: center;
+    color: #fff;
+    padding: 50px 0px;
+    background-color: #000;
+}
+
+.salten03 span {
+    font-family: 'futurak';
+    font-size: 52px;
+    letter-spacing: 2px;
+
+}
+
+.salten03>h2 {
+    margin: 0px;
+}
+
+.salten03 h3 {
+    font-size: 48px;
+    font-family: 'butler';
+    margin: 0px;
+}
+
+/*  Franchises IMG 01 */
+.center {
+    background-color: #000;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.image01 {
+    width: 300px;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+
+.image_container {
+    margin: 0px 12px;
+
+}
+
+.image01>img {
+    width: 100%;
+}
+
+.parent_add01 {
+
+    background-color: #000;
+    width: 250px;
+    padding: 0px;
+    text-align: center;
+}
+
+.Franchise01 {
+    width: 100%;
+    margin: 0px;
+
+}
+
+.Franchise01 img {
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+.head_pack>h3 {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+}
+
+.head_exp {
+    text-align: center;
+}
+
+.head_exp {
+    font-size: 22px;
+    padding-right: 0px;
+
+}
+
+.head_exp h3 {
+    margin: 0px;
+    color: #fff;
+    letter-spacing: 0.9px;
+}
+
+.head_exp span {
+    font-family: 'futurak';
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.add {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.parent_line01 {
+    display: inline-flex;
+}
+
+.frendirection {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* << Village Frenchise >>> */
+
+.salten_Village {
+    background-color: #0F0F0F;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.salten_Village h3 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'butler';
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.village_Salten>h3>span {
+    font-family: 'futurak';
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+
+.heading_box {
+    background-color: #0F0F0F;
+    text-align: left;
+    color: #fff;
+    padding: 0%;
+    
+
+}
+
+.isl_red {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 8px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.getdirection {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 20px;
+    margin-bottom: 125px;
+    background-color: #28A745;
+
+
+}
+
+.getdirection i {
+    border: none;
+    padding: 5px 5px;
+    border-radius: 55px;
+    background-color: #fff;
+    color: #28A745;
+}
+
+.heading_box span {
+    font-family: 'futurak';
+    letter-spacing: px;
+    margin: 0px;
+    font-size: 35px;
+    background-color: #0F0F0F;
+}
+
+.Restaurant {
+    font-family: 'appercu' !important;
+    font-weight: lighter;
+    font-size: 29px;
+}
+
+address {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+address i {
+    letter-spacing: 3px;
+}
+
+.village_image>img {
+    width: 90%;
+    padding: 0%;
+}
+
+.father {
+    display: inline-flex;
+    background-color: #000000;
+
+}
+
+/* Address Section */
+.add_parent
+{
+    background-color: #000;
+    color: #000;
+    text-align: center;
+}
+
+.add_head {
+
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.add_head h3 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'butler';
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.add_head>h3>span {
+    font-family: 'futurak';
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.Opening
+{
+    font-family: 'butler' !important;
+    font-size: 20px !important;
+}
+
+/* Address */
+.add_image
+{
+display: inline-flex;
+}
+
+.img_02
+{
+padding: 0px 20px;
+}
+/* Social Feeds */
+.social_feed_head
+{
+text-align: center;
+
+background-color: #000;
+
+}
+.social_feed_head > h2
+{
+    margin: 0% ;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+    background-color: #000;
+    font-family: 'butler' !important;
+    font-size: 38px;
+}
+
+
+
+.social_Feed
+{
+    display: inline-flex;
+    background-color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.social_Feed img
+{
+width: 90%;
+
+}
+.container tr:hover {
+    background-color: #464A52;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.container td:hover {
+    background-color: #FFF842;
+    color: #403E10;
+    font-weight: bold;
+
+    box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+    transform: translate3d(6px, -6px, 0);
+
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: line;
+}
+/* Footer area started */
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.footer-box-1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    color: white;
+    margin-left: 30px;
+    background-color: transparent;
+
+}
+
+.footer-box-1 img {
+    width: 140px;
+    height: 56px;
+    background-color: transparent;
+
+
+}
+
+.footer-box-1 p {
+
+    margin: 0px !important;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+
+}
+
+.footer-box-1 ul {
+    display: flex;
+
+}
+
+.footer-box-1 ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer-remaining-box {
+    width: 16%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    color: white;
+
+}
+
+.footer-remaining-box ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.footer-remaining-box ul li {
+    list-style: none;
+    margin-bottom: 17px;
+    background-color: transparent;
+}
+
+.footer-remaining-box h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+
+}
+
+.footer-remaining-box ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+}
+
+.footer-remaining-box-links {
+    width: 30%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    background-color: transparent;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.footer-remaining-box-links h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+}
+
+.footer-remaining-box-links ul {
+    display: flex;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.footer-remaining-box-links ul li i {
+    font-size: 40px;
+    background-color: black;
+    color: var(--red);
+    padding-left: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: transparent;
+}
+
+.footer-remaining-box-links ul li i:hover {
+    font-size: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.apple-link {
+    margin-top: 10px;
+}
+
+.google-link {
+    margin-top: 8px;
+}
+
+/* powered Area  Started */
+
+.powered hr {
+    width: 100%;
+    height: 0.1px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    margin-top: 20px;
+    opacity: 0.3;
+}
+
+.powered-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    background-color: #282626;
+
+}
+
+.avatar img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #282626;
+    color: #282626;
+}
+
+.avatar-whole {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    padding: 8px;
+    background-color: #282626;
+}
+
+.avatar-text p {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 14px;
+    background-color: #282626;
+
+}
+
+.avatar-text a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    background-color: #282626;
+
+}
+
+.avatar-text i {
+    font-size: 16px;
+    background-color: #282626;
+    margin-left: 5px;
+}
+
+.avatar-text i:hover {
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+/* powered Area  Ended */
