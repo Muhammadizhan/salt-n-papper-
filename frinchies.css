@@ -1,0 +1,63 @@
+
+.form-blank {
+    height: 44px !important;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 0.25rem;
+}
+
+.feed-inner-container-frnachise {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.feed-inner-container-franchise p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 12px 0px 12px 0px;
+
+}
+
+.feed-outer-container-franchise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
+.feed-outer-container-franchise h3 {
+    font-family: 'ButlerRegular';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 15px;
+}
+ select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0);
+    color: #585858;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0);
+}
